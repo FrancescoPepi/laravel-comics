@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $title_doc = env('APP_NAME');
+    $title = 'Home';
+
+    $series = Config('comics');
+
+    return view('homepage', compact('title_doc', 'title', 'series'));
+})->name('homepage');

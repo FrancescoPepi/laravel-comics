@@ -1,1 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
+
+// .max-h {
+//     height: 100px;
+// }
+.card-img {
+    height: 270px;
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.card-header {
+    text-align: center;
+    height: 80px;
+    overflow-y: auto;
+    background-color: ;
+}
