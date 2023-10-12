@@ -22,7 +22,9 @@
 
 <body>
     <header>HEADER</header>
-    <main>@yield('main-contetn')</main>
+    <div class="{{ Route::current()->getName() == 'homepage' ? 'bg-black' : 'bg-white' }}">
+        <main>@yield('main-contetn')</main>
+    </div>
     <footer>FOOTER</footer>
 </body>
 

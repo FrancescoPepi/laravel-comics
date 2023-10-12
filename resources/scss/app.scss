@@ -1,11 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
-// .max-h {
-//     height: 100px;
-// }
+.card {
+    // border: 0px;
+    border-color: #272727;
+    background-color: #222222;
+}
 .card-img {
     height: 270px;
     overflow: hidden;
+
     img {
         height: 100%;
         width: 100%;
@@ -16,5 +19,16 @@
     text-align: center;
     height: 80px;
     overflow-y: auto;
-    background-color: ;
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+}
+
+.bg-black {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+.bg-white {
+    background-color: #ffffff;
+    color: black;
 }
