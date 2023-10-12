@@ -20,7 +20,9 @@
                         </div>
                     </div>
                 @empty
-                    asdas
+                    <P>
+                        NESSUN DATO TROVATO
+                    </P>
                 @endforelse
 
             </div>
